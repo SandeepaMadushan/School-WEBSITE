@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST.ANTHONY'S COLLEGE KANDY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@200;300;400;600;700&family=The+Nautigal:wght@700&display=swap"
+ rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/Picture1.png"> </a>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">FACILITIES</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Sri Lanka's Best School</h1>
+        <p>Please visit our website and enjoy.</p>
+        <a href="" class="hero-btn">Visit us to know more.</a>
+    </div>
+
+</section>
+
+    <!------ About ------->
+
+<section class="about">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto distinctio dolore obcaecati neque aspernatur sequi impedit commodi, molestias adipisci architecto non 
+        ipsa ex quos fuga minima? Dolorum, cupiditate quo!</p>
+
+    <div class="row">
+        <div class="about-col">
+            <h3>Education</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas accusamus debitis ipsa quibusdam porro culpa impedit, ea sit, dolorem et provident incidunt placeat facilis doloremque, 
+               adipisci aliquam doloribus corrupti repellat!</p>
+        </div>
+        <div class="about-col">
+            <h3>Sports</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas accusamus debitis ipsa quibusdam porro culpa impedit, ea sit, dolorem et provident incidunt placeat facilis doloremque, 
+               adipisci aliquam doloribus corrupti repellat!</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!------- School ------>
+
+<section class="school">
+    <h1>Our school photos</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptates.</p>
+
+    <div class="row">
+        <div class="school-col">
+            <img src="New folder/city.jpg">
+            <div class="layer">
+                <h3>Around The City</h3>
+            </div>
+        </div>
+        <div class="school-col">
+            <img src="New folder/flag.jpg">
+            <div class="layer">
+                <h3>Our Flag</h3>
+            </div>
+        </div>
+        <div class="school-col">
+            <img src="New folder/building.jpg">
+            <div class="layer">
+                <h3>Buildings</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- ----- Facilities -------- -->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="New folder/pool.jpg" >
+            <h3>Swimming Pool</h3>
+        </div>
+
+        <div class="facilities-col">
+            <img src="New folder/playground.jpg" >
+            <h3>Largest Play Ground</h3>
+         </div>
+    </div>
+
+</section>
+
+
+
+
+<!--------Javascript for Toggle Menu------->
+<script>
+
+    var navlinks = document.getElementById("nav-links");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+
+</script>
+
+
+
+    
+</body>
+</html>
